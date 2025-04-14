@@ -1,0 +1,32 @@
+
+.sidebar {
+     /*height: 50vh; altura total da tela */
+    background-color: #0d6efd; /* azul Bootstrap */
+    color: white;
+  }
+
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+  }
+
+  .sidebar a:hover {
+    background-color: #0b5ed7;
+  }
+  :root {
+    --base-font-size: 16px;
+  }
+  
+  body {
+    font-size: var(--base-font-size);
+  }
+  
+  .sidebar a {
+    font-size: var(--base-font-size); /* Isso faz os ícones crescerem junto */
+  }
+  
+  h1, h2, p, button, a, div {
+    font-size: var(--base-font-size);
+  }
